@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,
+body {
+    font-family: "mooli", sans-serif;
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;height: 100vh;
+    justify-content: center;
+    gap: 4rem;
+}
+.search {
+    display: flex;
+    width: 50%;
+    max-width: 60rem;
+}
+.search input {
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.search input:focus-visible {
+    outline: 1px solid purple;
+    /* border: none; */
+}
+/* ---------------------------------------Search    Button */
+.primary-btn {
+    background-color: purple;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.primary-btn:hover {
+    background-color: rgb(84, 5, 84);
+    cursor: pointer;
+    
+}
+
+.primary-btn:active {
+    background-color: rgb(220, 108, 220);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+/* For Card */
+#profileContainer {
+    width: 100%;
+}
+.profile-box {
+    margin: auto;
+    padding: 4rem 2rem;
+    width: 90%;
+    max-width: 78rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease-in;
+}
+
+.profile-box:hover {
+    transform: rotate(-2deg) scale(1.01);
+    transition: 0.5s ease-in;
+    border-radius: 8px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+.top-section button{
+  align-self: center;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.left h1 {
+    font-size: 1.6rem;
+}
+.avatar {
+    height: 10rem;
+    width: 10rem;
+    /* border-radius: 50%; */
+}
+
+.avatar img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.about {
+    margin: 2rem;
+}
+
+.status {
+    display: grid;
+    margin: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.status-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,117 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pim1 {/* start project image */
+    background-image: url(assets/image1.png);
+    min-height: 100%;
+}
+
+.pim2 {
+    /* forest */
+    background-image: url(assets/image2.png);
+    min-height: 500px;}
+
+.pim3 {
+    /* bamboo Tree */
+    background-image: url(assets/image3.png);
+    min-height: 500px;}
+.pim4 {
+    /* Summer white flower */
+    background-image: url(assets/image4.jpg);
+    min-height: 500px;
+}
+
+.pim5 {
+    /* library */
+    background-image: url(assets/image5.jpg);
+    min-height: 500px;}
+.pim6 {
+    /* Elephant */
+    background-image: url(assets/image6.jpg);
+    min-height: 500px;
+}
+
+.pim7 {
+    /* Mom And Son in bicyle */
+    background-image: url(assets/image7.jpg);
+    min-height: 500px;}
+.pim8 {
+    /* London Brige */
+    background-image: url(assets/image8.jpg);
+    min-height: 500px;
+}
+
+.pim9 {
+    /* Boat Occean */
+    background-image: url(assets/image9.jpg);
+    min-height: 500px;
+} 
+
+.end {  /* End project image */
+    background-image: url(assets/imageEnd.jpg);
+    min-height: 100%;
+}
+
+
+
+.pim1 ,.pim2 ,.pim3 ,.pim4 ,.pim5 ,.pim6,.pim7,.pim8,.pim9,.end{ /* image property setting*/
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext { /* paragraph text property*/
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg { /* image-big text property setting*/
+    background-color: #282e34;
+    color: #fff;
+    padding: 20px;
+    /* border-radius: 5px; */
+    transition: 0.3s ease-in-out;
+    
+}
+.textBg:hover{
+    background-color: #282e34;
+    color: #fff;
+    font-size: 28px;
+    padding: 21px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+h2 {
+    font-size:20px;
+    transition: 0.3s ease-in-out;
+}
+h2:hover {
+    font-size:24px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
